@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2be5babd-d827-4e21-9940-d79a7c22cc0a" name="Changes" comment="TimerObservable (pull/push)">
-      <change afterPath="$PROJECT_DIR$/src/swp/basics/observer/push/impl/UpdateOnceChangeManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/swp/basics/tests/ChangeManagerTest.java" afterDir="false" />
+    <list default="true" id="2be5babd-d827-4e21-9940-d79a7c22cc0a" name="Changes" comment="UpdateOnceChangeManager +&#10;ChangeManagerTest">
+      <change afterPath="$PROJECT_DIR$/src/swp/basics/factory/method/HTMLReportFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swp/basics/factory/method/PDFReportFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swp/basics/factory/method/ReportFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swp/basics/factory/products/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swp/basics/factory/products/impl/HTML_Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swp/basics/factory/products/impl/PDF_Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swp/basics/factory/products/impl/ReportType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swp/basics/factory/simple/ReportFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swp/basics/tests/FactoryMethodClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swp/basics/tests/FactorySimpleClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swp/basics/observer/pull/impl/DefaultObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swp/basics/observer/pull/impl/DefaultObservable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swp/basics/observer/push/impl/DefaultObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swp/basics/observer/push/impl/DefaultObservable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swp/basics/observer/push/impl/TimerObservableObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swp/basics/observer/push/impl/TimerObservableObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swp/basics/tests/ObservableObserverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swp/basics/tests/ObservableObserverTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -79,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713518871809</updated>
       <workItem from="1713518872931" duration="9063000" />
-      <workItem from="1714046923823" duration="4966000" />
+      <workItem from="1714046923823" duration="8110000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -113,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714046725038</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="UpdateOnceChangeManager +&#10;ChangeManagerTest">
+      <option name="closed" value="true" />
+      <created>1714052753553</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714052753553</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +148,7 @@
     <MESSAGE value="pull observer (incl. testing)&#10;push observer" />
     <MESSAGE value=" push observer (incl. testing)" />
     <MESSAGE value="TimerObservable (pull/push)" />
-    <option name="LAST_COMMIT_MESSAGE" value="TimerObservable (pull/push)" />
+    <MESSAGE value="UpdateOnceChangeManager +&#10;ChangeManagerTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="UpdateOnceChangeManager +&#10;ChangeManagerTest" />
   </component>
 </project>
