@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2be5babd-d827-4e21-9940-d79a7c22cc0a" name="Changes" comment="UpdateOnceChangeManager +&#10;ChangeManagerTest">
-      <change afterPath="$PROJECT_DIR$/src/swp/basics/factory/method/HTMLReportFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/swp/basics/factory/method/PDFReportFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/swp/basics/factory/method/ReportFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/swp/basics/factory/products/Report.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/swp/basics/factory/products/impl/HTML_Report.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/swp/basics/factory/products/impl/PDF_Report.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/swp/basics/factory/products/impl/ReportType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/swp/basics/factory/simple/ReportFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/swp/basics/tests/FactoryMethodClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/swp/basics/tests/FactorySimpleClient.java" afterDir="false" />
+    <list default="true" id="2be5babd-d827-4e21-9940-d79a7c22cc0a" name="Changes" comment="Factorymethod + simple + test">
+      <change afterPath="$PROJECT_DIR$/src/swp/basics/decorator/cafe/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swp/basics/decorator/cafe/BeverageDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swp/basics/decorator/cafe/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swp/basics/decorator/cafe/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swp/basics/decorator/cafe/Sugar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swp/basics/decorator/cafe/Tea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swp/basics/tests/DecoratorBeverageClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +43,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ChangeManagerTest.executor": "Run",
+    "Application.DecoratorBeverageClient.executor": "Run",
     "Application.ObservableObserverTest.executor": "Run",
     "Application.ObserverSimpleTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -67,6 +65,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\chrib\Documents\MBI\4. Semester FF\SWP4\UE_EH\swp4_ue_eh03\src\swp\basics\observer\push" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="swp.basics.decorator.cafe" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -84,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713518871809</updated>
       <workItem from="1713518872931" duration="9063000" />
-      <workItem from="1714046923823" duration="8110000" />
+      <workItem from="1714046923823" duration="9640000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -126,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714052753553</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Factorymethod + simple + test">
+      <option name="closed" value="true" />
+      <created>1714055411336</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714055411336</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +158,7 @@
     <MESSAGE value=" push observer (incl. testing)" />
     <MESSAGE value="TimerObservable (pull/push)" />
     <MESSAGE value="UpdateOnceChangeManager +&#10;ChangeManagerTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="UpdateOnceChangeManager +&#10;ChangeManagerTest" />
+    <MESSAGE value="Factorymethod + simple + test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factorymethod + simple + test" />
   </component>
 </project>
