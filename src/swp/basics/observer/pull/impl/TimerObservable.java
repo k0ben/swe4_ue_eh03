@@ -3,7 +3,7 @@ package swp.basics.observer.pull.impl;
 public class TimerObservable extends DefaultObservable {
 
     private int ticks;
-    private int interval;
+    private final int interval;
 
     public TimerObservable(int ticks, int interval) {
         this.ticks = ticks;

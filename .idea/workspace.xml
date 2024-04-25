@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2be5babd-d827-4e21-9940-d79a7c22cc0a" name="Changes" comment="pull observer (incl. testing)&#10;push observer">
-      <change afterPath="$PROJECT_DIR$/src/swp/basics/observer/push/impl/TimerObservableObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/swp/basics/tests/ObservableObserverTest.java" afterDir="false" />
+    <list default="true" id="2be5babd-d827-4e21-9940-d79a7c22cc0a" name="Changes" comment=" push observer (incl. testing)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swp/basics/observer/pull/impl/TimerObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swp/basics/observer/pull/impl/TimerObservable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swp/basics/observer/push/impl/TimerObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swp/basics/observer/push/impl/TimerObservable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713518871809</updated>
-      <workItem from="1713518872931" duration="7588000" />
+      <workItem from="1713518872931" duration="9063000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -91,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713527552391</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=" push observer (incl. testing)">
+      <option name="closed" value="true" />
+      <created>1713528268098</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713528268098</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +119,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="pull observer (incl. testing)&#10;push observer" />
-    <option name="LAST_COMMIT_MESSAGE" value="pull observer (incl. testing)&#10;push observer" />
+    <MESSAGE value=" push observer (incl. testing)" />
+    <option name="LAST_COMMIT_MESSAGE" value=" push observer (incl. testing)" />
   </component>
 </project>
