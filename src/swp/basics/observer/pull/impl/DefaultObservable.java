@@ -26,5 +26,6 @@ public abstract class DefaultObservable implements Observable {
             observer.update();
     }
 
+
     public abstract Object getState();
 }

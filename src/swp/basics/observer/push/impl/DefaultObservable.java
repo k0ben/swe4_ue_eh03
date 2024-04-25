@@ -20,10 +20,17 @@ public abstract class DefaultObservable implements Observable {
         registerObservers.add(observer);
     }
 
-    @Override
-    public void notifyObserver() {
+    //@Override
+    //public void notifyObserver() {
+    //    for (Observer observer : registerObservers)
+    //        observer.update(this, getState());
+    //}
+    public void notifyObserver(){
+        notifyObserver(this, getState());
+    }
+    public void notifyObserver(Observable observable, Object argument) {
         for (Observer observer : registerObservers)
-            observer.update(this, getState());
+            observer.update(observable, argument);
     }
 
     public abstract Object getState();

@@ -29,6 +29,19 @@ public class TimerObservableObserver extends DefaultObservable implements Observ
     @Override
     public void update(Observable observable, Object argument) {
         System.out.println("Update of " + this + ":" + observable + "with new state " + argument);
-        notifyObserver();
+
+        //ticks = (int) argument;
+        //notifyObserver();
+
+        notifyObserver(observable, argument);
+
     }
+
+    public void registerObserver(TimerObservableObserver observer){
+        if (observer != null){
+            UpdateOnceChangeManager.getInstance().attachObserver(this, observer);
+        }
+    }
+
+    //TODO: detach / unregister
 }

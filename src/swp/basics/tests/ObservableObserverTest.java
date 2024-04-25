@@ -19,5 +19,13 @@ public class ObservableObserverTest {
         obObs2.registerObserver(obs);
 
         timer.runTimer();
+
+        obObs1.registerObserver(obObs2);
+        obObs2.registerObserver(obObs2);
+        obObs1.runTimer();
+
+        System.out.println("\n====================");
+
+
     }
 }

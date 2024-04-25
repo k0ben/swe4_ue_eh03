@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2be5babd-d827-4e21-9940-d79a7c22cc0a" name="Changes" comment=" push observer (incl. testing)">
+    <list default="true" id="2be5babd-d827-4e21-9940-d79a7c22cc0a" name="Changes" comment="TimerObservable (pull/push)">
+      <change afterPath="$PROJECT_DIR$/src/swp/basics/observer/push/impl/UpdateOnceChangeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/swp/basics/tests/ChangeManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swp/basics/observer/pull/impl/TimerObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swp/basics/observer/pull/impl/TimerObservable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swp/basics/observer/push/impl/TimerObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swp/basics/observer/push/impl/TimerObservable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swp/basics/observer/pull/impl/DefaultObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swp/basics/observer/pull/impl/DefaultObservable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swp/basics/observer/push/impl/DefaultObservable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swp/basics/observer/push/impl/DefaultObservable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swp/basics/observer/push/impl/TimerObservableObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swp/basics/observer/push/impl/TimerObservableObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/swp/basics/tests/ObservableObserverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/swp/basics/tests/ObservableObserverTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +29,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2fJUqzNr3WC4hvCDfUA7UvIyaVo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -36,6 +40,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ChangeManagerTest.executor": "Run",
     "Application.ObservableObserverTest.executor": "Run",
     "Application.ObserverSimpleTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -74,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713518871809</updated>
       <workItem from="1713518872931" duration="9063000" />
+      <workItem from="1714046923823" duration="4966000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -99,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713528268098</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="TimerObservable (pull/push)">
+      <option name="closed" value="true" />
+      <created>1714046725038</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714046725038</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +134,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="pull observer (incl. testing)&#10;push observer" />
     <MESSAGE value=" push observer (incl. testing)" />
-    <option name="LAST_COMMIT_MESSAGE" value=" push observer (incl. testing)" />
+    <MESSAGE value="TimerObservable (pull/push)" />
+    <option name="LAST_COMMIT_MESSAGE" value="TimerObservable (pull/push)" />
   </component>
 </project>
